@@ -5,34 +5,34 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 
 const projects = [
-{
-title: "Cinematic Edit",
-category: "Cinematic Video Editing",
-tools: "Premiere Pro, After Effects, Color Grading",
-image: "/images/reel1.png",
-youtube: "https://www.youtube.com/watch?v=OBgOwAf-oVI&list=RDCbvjhmFVMvA&index=27",
-},
-{
-title: "Instagram Reel",
-category: "Social Media Edit",
-tools: "After Effect, Transitions, Motion Graphics",
-image: "/images/reel2.png",
-youtube: "https://www.youtube.com/watch?v=OBgOwAf-oVI&list=RDCbvjhmFVMvA&index=27",
-},
-{
-title: "YouTube Video Edit",
-category: "YouTube Content Editing",
-tools: "After Effects, Storytelling, Sound Design",
-image: "/images/reel3.png",
-youtube: "https://www.youtube.com/watch?v=OBgOwAf-oVI&list=RDCbvjhmFVMvA&index=27",
-},
-{
-title: "Client Project",
-category: "Professional Video Editing",
-tools: "Premiere Pro, Color Correction, Effects",
-image: "/images/reel4.png",
-youtube: "https://www.youtube.com/watch?v=OBgOwAf-oVI&list=RDCbvjhmFVMvA&index=27",
-},
+  {
+    title: "Cinematic Edit",
+    category: "Cinematic Video Editing",
+    tools: "Premiere Pro, After Effects, Color Grading",
+    image: `${import.meta.env.BASE_URL}images/reel1.png`,
+    link: "https://youtu.be/OBgOwAf-oVI?si=8vOnmAnZBcKHeTjD/",
+  },
+  {
+    title: "Instagram Reel",
+    category: "Social Media Edit",
+    tools: "After Effect, Transitions, Motion Graphics",
+    image: `${import.meta.env.BASE_URL}images/reel2.png`,
+    link: "https://www.youtube.com/",
+  },
+  {
+    title: "Client Project",
+    category: "Professional Video Editing",
+    tools: "Premiere Pro, Color Correction, Effects",
+    image: `${import.meta.env.BASE_URL}images/reel3.png`,
+    link: "https://www.youtube.com/",
+  },
+  {
+    title: "YouTube Video Edit",
+    category: "YouTube Content Editing",
+    tools: "After Effects, Storytelling, Sound Design",
+    image: `${import.meta.env.BASE_URL}images/reel4.png`,
+    link: "https://www.youtube.com/",
+  },
 ];
 const Work = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -113,7 +113,7 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} link={project.youtube} data-cursor="disable" />
+                      <WorkImage image={project.image} alt={project.title} link={project.link} />
                     </div>
                   </div>
                 </div>
