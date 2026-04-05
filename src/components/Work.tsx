@@ -10,28 +10,28 @@ const projects = [
     category: "Cinematic Video Editing",
     tools: "Premiere Pro, After Effects, Color Grading",
     image: `${import.meta.env.BASE_URL}images/reel1.png`,
-    link: "https://youtu.be/OBgOwAf-oVI?si=8vOnmAnZBcKHeTjD/",
+    link: "https://drive.google.com/drive/folders/1qURtai-nQDzhyAZFXtKJMKqTiO2VwTvI?usp=sharing",
   },
   {
     title: "Instagram Reel",
     category: "Social Media Edit",
     tools: "After Effect, Transitions, Motion Graphics",
     image: `${import.meta.env.BASE_URL}images/reel2.png`,
-    link: "https://www.youtube.com/",
+    link: "https://drive.google.com/drive/folders/1ByfsD_eRNuxJi51lQTXEM6JGTs1J4yH9?usp=sharing",
   },
   {
     title: "Client Project",
     category: "Professional Video Editing",
     tools: "Premiere Pro, Color Correction, Effects",
     image: `${import.meta.env.BASE_URL}images/reel3.png`,
-    link: "https://www.youtube.com/",
+    link: "https://drive.google.com/drive/folders/1XCdXNEpabuP2MBikx0DTRonmDrS8yYtF?usp=sharing",
   },
   {
     title: "YouTube Video Edit",
     category: "YouTube Content Editing",
     tools: "After Effects, Storytelling, Sound Design",
     image: `${import.meta.env.BASE_URL}images/reel4.png`,
-    link: "https://www.youtube.com/",
+    link: "https://drive.google.com/drive/folders/16ta6tlUVTkmR5Bm45vLyaeeghYSpIZ2C?usp=sharing",
   },
 ];
 const Work = () => {
