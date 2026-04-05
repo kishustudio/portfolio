@@ -29,7 +29,7 @@ const projects = [
   {
     title: "YouTube Video Edit",
     category: "YouTube Content Editing",
-    tools: "After Effects, Storytelling, Sound Design",
+    tools: "After Effect, Storytelling, Sound Design",
     image: `${import.meta.env.BASE_URL}images/reel4.png`,
     link: "https://drive.google.com/drive/folders/16ta6tlUVTkmR5Bm45vLyaeeghYSpIZ2C?usp=sharing",
   },
